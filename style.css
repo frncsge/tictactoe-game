@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  align-items: center;
+}
+
+#title {
+  text-align: center;
+}
+
+table {
+  z-index: 2;
+  border-spacing: 0.5rem;
+}
+
+.box {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+
+  cursor: pointer;
+
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+.box.disabled {
+  pointer-events: none;
+}
+
+#indicator {
+  text-align: center;
+}
